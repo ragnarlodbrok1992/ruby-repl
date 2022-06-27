@@ -10,6 +10,8 @@ end
 
 while true
     command = prompt "Ruby REPL -> "
+
+    # Check for exiting
     if command.chomp == "exit"
         break
     end
